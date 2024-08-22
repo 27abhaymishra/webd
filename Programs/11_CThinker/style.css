@@ -1,0 +1,32 @@
+body{
+perspective: 900px;
+}
+.parent{
+    height: 300px;
+    width: 300px;
+    position:relative;
+    margin: 20px auto;
+    transition: 3s;
+    transform-style: preserve-3d;
+}
+.parent:hover{
+transform: rotateY(180deg);
+}
+#a_Side{
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    backface-visibility: hidden;
+
+}
+#b_side{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+img{
+    width: 400px;
+    height: 400px;
+}

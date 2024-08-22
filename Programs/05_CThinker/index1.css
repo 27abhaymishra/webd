@@ -1,0 +1,40 @@
+p{
+    
+    background-color: yellow;
+}
+.class1{
+    color: rgb(93, 93, 87);
+}
+#one1{
+    background-color: aqua;
+}
+#tom1{
+    background-color: blue;
+}
+/* a[href='http://google.com']{ */
+    /* background-color: hotpink; */
+/* } */
+/* Strating Seletor */
+ a[href^='https']{
+    border: 5px solid green;
+}
+/* } 
+[href$="com"]{
+    
+    display: flex;
+    display: block;
+    background-color: aqua;
+    width: 400px;
+
+}   */
+h1[class*="e"]{
+    background-color: aqua;
+}
+ /* a[ href="http://google.com"]{
+    background-color: aqua;
+    font-size: 50px;
+    display: flex;
+    display: block;
+    width: 400px;
+    
+ } */

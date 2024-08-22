@@ -1,0 +1,56 @@
+div p {
+    background-color: aqua;
+}
+ /* ul li:first-child{
+    background-color: blue;
+} */
+ /* ul li:last-child{
+    background-color: chocolate;
+ } */
+li:nth-of-type(2n){
+    background-color: aquamarine;
+    border: 5px solid blue;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: 2s;
+}
+div:hover{
+    border-radius: 50%;
+    background-color: darkgray;
+    height: 300px;
+}
+
+
+li{
+    transition: 4s;
+}
+li:hover{
+    border-radius: 50%;
+    background-color: red;
+    height: 500px;
+}
+li:nth-of-type(2n+1){
+    background-color: orange;
+    border: 5px solid black;
+}
+.outer{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+.inner{
+    height: 50%;
+width: 50%;
+
+background-color: black;
+}
+li{
+    /* font-size: 2rem;    */
+    font-size: 2em;
+}
+
+
+   

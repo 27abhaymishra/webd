@@ -1,0 +1,37 @@
+#parent{
+   border: 2px solid salmon;
+   height: 600px;
+   display: flex;
+   /* flex-direction: row; */
+   /* justify-content: baseline; */
+   /* justify-content: center; */
+   /* flex-direction: column; */
+justify-content:center ;
+/* flex-direction: column-reverse; */
+/* justify-content: start; */
+/* flex-direction: row; */
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+/* justify-content: space-evenly; */
+flex-wrap: wrap;
+/* align-items: center; */
+/* align-items: end; */
+/* align-items: flex-start; */
+align-items: flex-end;
+
+}
+.one{
+    height: 100px;
+    width: 100px;
+}
+#one{
+    background-color: blue;
+   
+}
+#two{
+    background-color: pink;
+}
+#three{
+    background-color: green;
+
+}
